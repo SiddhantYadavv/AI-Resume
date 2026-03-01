@@ -84,3 +84,6 @@ const interviewReportSchema = new mongoose.Schema({
     skillsGap: [skillsGapSchema],
     preprationplans: [preprationplansSchema]
 });
+
+const InterviewReport = mongoose.model("InterviewReport", interviewReportSchema);
+export default InterviewReport;
